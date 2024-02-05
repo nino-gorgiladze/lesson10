@@ -1,0 +1,266 @@
+.header {
+    width: 100%;
+    height: 96px;
+    margin: 0 auto;
+    display: flex;
+    padding-left: 32px;
+    padding-right: 32px;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: white;
+}
+
+.ul {
+    display: flex;
+    width: 328px;
+    height: 20px;
+    justify-content: space-between;
+    vertical-align: middle;
+
+}
+
+.nav-text {
+    color: black;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    vertical-align: middle;
+}
+
+.body {
+    padding-top: 96px;
+
+}
+
+/* section1 */
+.div1 {
+    max-width: 1140px;
+    width: 95%;
+    padding: 64px 0px;
+    margin: 0 auto;
+    display: flex;
+    gap: 0px 130px;
+    align-items: center;
+}
+.div1-1 {width: 490px;}
+
+.div1-h {
+    color: black;
+    font-family: 'Inter', sans-serif;
+    font-weight: 900;
+    font-size: 56px;
+    line-height: 60px;
+    letter-spacing: -1px;
+}
+
+.div1-p {
+    color: black;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    margin-top: 24px;
+    margin-bottom: 40px;
+}
+
+.div1-p1 {
+    width: 236px;
+    color: black;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    margin-left: 20px;
+}
+
+.div1-1-last {
+    display: flex;
+    align-items: center;
+}
+.div1-img {width: 490px;}
+.div1-img img {width: 100%;}
+
+
+
+
+/* section2 */
+.section2 {
+    background-color: #F3F3F3;
+}
+
+.div2 {
+    max-width: 1140px;
+    width: 95%;
+    padding: 64px 0px;
+    margin: 0 auto;
+    display: flex;
+    gap: 0px 30px;
+
+}
+
+.div2-1 {
+    width: 360px;
+}
+
+.div2-1-1 {
+    display: flex;
+    align-items: center;
+}
+
+.div2-h {
+    color: black;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 28px;
+    margin-left: 16px;
+}
+
+.div2-p {
+    color: black;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.1px;
+    margin-top: 16px;
+}
+
+
+/* seqcion3 */
+.section3 {
+    background-color: black;
+
+}
+
+.div3 {
+    max-width: 1140px;
+    width: 95%;
+    margin: 0 auto;
+    padding: 96px 0px;
+    display: flex;
+    align-items: center;
+    gap: 64px 133px;
+
+}
+
+.div3-left {
+    width: 503.5px;
+}
+
+.div3-right {
+    width: 503.5px;
+}
+
+.div3-left img {
+    width: 100%;
+}
+
+.text3-1 {
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    font-weight: 900;
+    margin-bottom: 16px;
+    line-height: 32px;
+}
+
+.p2 {
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+.text3-2 {
+    font-family: 'Inter', sans-serif;
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 8px;
+    line-height: 24px;
+}
+
+
+
+/* section-bg */
+.section-bg {
+    background-image: url(../images/bg.jpg);
+    height: 564px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: center;
+    padding: 192px 0px;
+
+}
+
+.tagline {
+    font-family: 'Inter', sans-serif;
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.1px;
+    text-align: center;
+}
+
+.text-on-bg {
+    width: 540px;
+    font-family: 'Inter', sans-serif;
+    color: white;
+    font-size: 40px;
+    font-weight: 900;
+    line-height: 48px;
+    letter-spacing: -0.5px;
+    text-align: center;
+    margin: 0 auto;
+
+}
+
+.imgg {
+    width: 100px;
+    margin: auto;
+}
+
+
+
+/* last */
+.last {background-color: black;
+padding: 96px 0px;}
+
+.last-div {max-width: 1140px;
+width: 95%;
+margin: auto;
+display: flex;}
+
+
+.li-h {width: 228px;
+    font-family: 'Inter', sans-serif;
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.1px;
+    margin-bottom: 16px;
+}
+
+.li-p {width: 228px;
+    font-family: 'Inter', sans-serif;
+    color: white;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    margin-bottom: 8px;
+   
+}
+.li-p-last {margin-top: 24px;
+    width: 228px;
+    font-family: 'Inter', sans-serif;
+    color: white;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    opacity: 40%;
+}

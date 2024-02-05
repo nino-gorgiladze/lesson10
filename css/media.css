@@ -1,0 +1,150 @@
+@media (max-width:1024px) {
+    .div3 {
+        flex-direction: column;
+    }
+
+    .div3-left {
+        width: 100%;
+    }
+
+    .div3-right {
+        width: 100%;
+        display: flex;
+        column-gap: 129px;
+    }
+
+    .div1 {
+        flex-direction: column;
+    }
+
+    .div1-img {
+        width: 100%;
+    }
+
+    .div1-1 {
+        width: 630px;
+        align-items: center;
+        text-align: center;
+    }
+
+    .div1-1-last {
+        width: 630px;
+        align-items: center;
+        text-align: center;
+        padding: 0px 70px;
+        margin-bottom: 68px;
+    }
+
+    .div1-p1 {
+        width: 370px;
+        text-align: center;
+    }
+}
+
+
+
+
+@media (max-width:744px) {
+    .div1-h {
+        width: 696px;
+        text-align: center;
+        font-size: 40px;
+        line-height: 48.5px;
+    }
+
+    .div1-1-last {
+        flex-direction: column;
+    }
+
+
+
+    .div2 {
+        flex-direction: column;
+        width: 744px;
+    }
+.div2-1 {width: 744px;}
+
+
+    .div3 {
+        flex-direction: column;
+        row-gap: 29px;
+
+    }
+
+    .div3-left {
+        width: 100%;
+    }
+
+    .div3-right {
+        width: 100%;
+        display: flex;
+        text-align: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .p2 {
+        margin-top: 29px;
+        margin-bottom: 29px;
+    }
+}
+
+
+
+@media (max-width:375px) {
+    .div1 {
+        display: inline-block;
+    }
+
+    .div1-h {
+        width: 327px;
+        letter-spacing: -1px;
+        text-align: center;
+    }
+
+    .div1-p {
+        width: 327px;
+    }
+
+    .div1-1-last {
+        width: 327px;
+    }
+
+    .div1-p1 {
+        width: 327px;
+        line-height: 28px;
+        margin-top: 16px;
+        margin-bottom: 24px;
+    }
+
+
+
+
+
+
+    .div3 {
+        row-gap: 14px;
+    }
+
+    .p2 {
+        margin-top: 14px;
+        margin-bottom: 14px;
+    }
+
+    .text3-1 {
+        color: white;
+        font-family: 'Inter', sans-serif;
+        font-size: 16px;
+        font-weight: 900;
+        line-height: 32px;
+    }
+
+    .text3-2 {
+        font-family: 'Inter', sans-serif;
+        color: white;
+        font-size: 14px;
+        font-weight: 400;
+        margin-bottom: 2px;
+        line-height: 24px;
+    }
+}
